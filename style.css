@@ -1,0 +1,444 @@
+body,p,span {
+    font-family: 'Roboto', sans-serif;
+}
+h1,h2,h3,h4,h5,h6,a {
+    font-family: 'Rubik', sans-serif;
+}
+
+
+
+/* header-section */
+.bg-light{
+    background-color: #fff !important;
+}
+
+ul.top-menu li a{
+    padding: 20px 15px !important;
+    font-weight: 500;
+    color: #111 !important;
+    font-size: 16px !important;
+}
+
+.main-header .collapse .contact .contact-search {
+    font-size: 22px;
+    padding: 0px 18px;
+    border-right: 1px solid #111;
+    
+}
+.main-header .collapse .contact .contact-info{
+    width: 240px;
+}
+.main-header .collapse .contact .contact-info .contact-icon {
+    margin: 8px 15px 0px 18px;
+    font-size: 30px;
+    color: #e73c3e;;
+}
+.main-header .collapse .contact .contact-info .contact-text span{
+    color: #606060;;
+}
+.main-header .collapse .contact .contact-info .contact-text a{ 
+    color: #111;
+    font-weight: 600;
+    text-decoration: none;
+}
+body .btn-primary{
+    background-color: #e73c3e !important;
+    border-color: #e73c3e;
+    padding: 10px 35px;
+    border:none;
+    position: relative;
+    z-index: 1;
+}
+body .btn-primary::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: #111 ;
+    border-radius: 4px;
+    z-index: -1;
+    transition: .4s;
+}
+body .btn-primary:hover::after{
+    
+    width: 100%;
+    height: 100%;
+}
+/* banner-section */
+.banner{
+    background: url(./img/main-banner2.jpg) fixed no-repeat top center;
+    background-size: cover;
+}
+
+.banner-content-wrap{
+    height:135vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.banner-content h6 {
+    color: #e73c3e;
+    font-weight: 400;
+    font-size: 20px;
+}
+.banner-content h1 {
+    font-weight: 500;
+    font-size: 65px;
+    padding: 10px 0px;
+    color: #111;
+}
+.banner-content p {
+    color: #606060;
+    font-size: 19px;
+}
+
+.header-social{
+  position:relative; 
+  top: 150px; 
+  left: 0px;
+}
+.header-social ul{
+    list-style: none;
+}
+.header-social ul li{ 
+    
+    padding: 0px 10px;
+ }
+.header-social ul li span{
+    padding: 0px 20px;
+    margin-right: 10px;
+    position: relative;
+    display: block;
+}
+.header-social ul li span::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 95px;
+    width: 25px;
+    height: 1px;
+    background-color: #111;
+}
+.header-social ul li a{
+    color: #111;
+    display: block;
+}
+
+/* test-1 css */
+.test-1{
+    border-bottom: 1px solid #ddd;
+
+}
+.test-1 ul{
+    list-style: none;
+    margin-top: 12px;
+}
+
+.test-2 .img-section{
+    position: relative;
+}
+.test-2 .img-section .dig-section{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width:200px;
+    height: 200px;
+    background: url(./img/shape.png) no-repeat center center;
+    background-size:contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.test-2 .img-section .dig-section .inner-section h1{
+    font-size: 70px;
+    font-weight: 500;
+    color: #e73c3e;
+}
+
+
+.test-2 .text-contain h6{
+    color: #e73c3e;
+    font-weight: 400;
+    font-size: 17px;
+}
+.test-2 .text-contain h3{
+    font-size: 32px;
+    font-weight: 400;
+    margin: 10px 0px;
+}
+.test-2 .text-contain p{
+    color: #606060;
+    font-size: 17px;
+}
+.test-2 .text-contain span{
+    color: #606060;
+    font-size: 20px;
+}
+.test-2 .text-contain ul{
+    list-style: none;
+}
+.test-2 .text-contain ul li{
+    padding: 6px 0px;
+    color: #606060;
+}
+.test-2 .text-contain ul li::before{
+    content: "\f00c";
+    font-family: 'Font Awesome 5 free';
+    font-weight: 600;
+    margin-right: 10px;
+    color: #e73c3e;
+}
+
+/* test-3 css */
+
+.test-3{
+    background-color:rgb(251 247 247);
+    padding: 100px 0px;
+}
+.finix-text h6 {
+    color: #e73c3e;
+    font-size: 17px;
+}
+.finix-text h3 {
+    font-size: 38px;
+    font-weight: 500;
+    padding: 8px 0px;
+}
+.finix-text p {
+    color: #606060;
+    font-size: 17px;
+}    
+
+.finix-img{
+    position: relative;
+}
+.finix-img span {
+    font-size: 59px;
+    position: absolute;
+    bottom: 75px;
+    right: 171px;
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    line-height: 84px;
+    background: #fff;
+    color: #e73c3e;
+    border-radius: 50%;
+}
+.finix-img span:hover{
+    color:#fff;
+    background: #e73c3e;
+}
+.finix-img span::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: #e73c3e;
+    border-radius: 50%;
+    
+
+    animation: play-animetion 1.5s ease-out infinite ;
+}
+
+@keyframes play-animetion{
+    0%{
+        transform: scale(0);
+        opacity: 1;
+    }
+    33.33%{
+        transform: scale(0.66);
+        opacity:0.67;
+    }
+
+    66.67%{
+        transform: scale(1.34);
+        opacity: 0.33;
+    }
+    100%{
+        transform: scale(2);
+        opacity: 0.1;
+    }
+     
+}
+
+
+.finix-card .finix-card-content{
+    background: #fff;
+    border-radius: 5px;
+    padding: 10px 8px;
+    margin-bottom: 0px;
+    position: relative;
+    overflow: hidden;
+
+    transition: .5s ease-out;
+}
+.finix-card .finix-card-content:hover{
+    transform: translateY(-8px);
+}
+.finix-card .finix-card-content::before {
+    content: "";
+    position: absolute;
+    top: -115px;
+    left: 12px;
+    margin: 0;
+    width: 90%;
+    height: 65%;
+    background: #fdebeb;
+    border-radius: 50%;
+    
+}
+.finix-card-content span {
+    font-size: 50px;
+    color: #e73c3e;
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    line-height: 83px;
+    border-radius: 50%;
+    background: #fff;
+    margin: 25px;
+    position: relative;
+}
+.finix-card .finix-card-content:hover span{
+    color: #fff;
+    background: #e73c3e;;
+}
+.finix-card-content h4 {
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+.finix-card-content p {
+    font-size: 17px;
+    color: #606060;
+    margin-bottom: 18px;
+}
+.mrg-up{
+    margin-top: -22px;
+}
+
+/* test-4 css */
+
+
+.left-text .left-text-heading h2{
+    font-size: 35px;
+    font-weight: 400;
+    margin-bottom: 38px;
+}
+.left-text ul{
+    list-style: none;
+    position: relative;
+    
+}
+.left-text ul::before{
+    content: "";
+    position: absolute;
+    top: 19px;
+    left:15px;
+    width: 1px;
+    height: calc(100% - 100px);
+    background: #e73c3e;
+}
+.left-text ul li{
+    margin-left: 20px;
+    position: relative;
+}
+.left-text ul li::before {
+    content: attr(data-coumter);
+    position: absolute;
+    top: 0;
+    left: -56px;
+    color: #e73c3e;
+    font-size: 25px;
+    height: 38px;
+    width: 38px;
+    line-height: 38px;
+    border: 1px solid #e73c3e;
+    text-align: center;
+    border-radius: 50%;
+    background: #fff;
+}
+.left-text ul li h4{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.left-text ul li p {
+    color: #606060;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.apply-form{
+    background: #fdebeb;
+}
+.apply-form .right-text h6{
+    color:#606060;
+}
+
+.apply-form-submetion label{
+    margin-bottom: 10px;
+}
+/* test-5 css */
+.test-5 .bgc {
+    background: #e73c3e;
+    padding: 51px 0px;
+    border-radius: 7px;
+}
+
+.test-5 .contact-text h3{
+    font-size: 36px;
+    color: #fff;
+    font-weight: 400;
+    margin-left: 35px;
+    border-right: 1px solid #f39e9f;
+}
+
+.contact-num{
+    margin-top: 18px;
+}
+.contact-num span {
+    font-size: 33px;
+    display: inline-block;
+    color: #e73c3e;
+    width: 68px;
+    text-align: center;
+    line-height: 82px;
+    height: 68px;
+    border-radius: 50%;
+    background: #fff;
+}
+.contact-num a {
+    margin-left: 40px;
+    font-size: 39px;
+    text-decoration: none;
+    color: #fff;
+}
+
+/* test-6 css */
+.Our-company-value{}
+.Our-company-value h2{
+    font-size: 40px;
+    font-weight: 500;
+    padding: 30px 0px;
+}
+.Our-company-value ul{
+    list-style: none;
+}
+.Our-company-value ul li{
+    position: relative;
+}
+.Our-company-value ul li::before{
+    content: "\f0b2";
+    font-family: 'Font Awesome 5 Free';
+    font-weight:600;
+    
+}
+.Our-company-value ul li p{
+    color: #606060;
+}
